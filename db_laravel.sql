@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 24 Agu 2020 pada 16.48
+-- Waktu pembuatan: 24 Agu 2020 pada 23.44
 -- Versi server: 10.4.14-MariaDB
 -- Versi PHP: 7.4.9
 
@@ -114,7 +114,12 @@ CREATE TABLE `students` (
 
 INSERT INTO `students` (`id`, `nama`, `nik`, `email`, `jurusan`, `created_at`, `updated_at`) VALUES
 (1, 'tara basro', '1301158780', 'tara@gmail.com', 'Ilmu Komputer', '2020-08-24 12:43:51', NULL),
-(2, 'dido', '1301156090', 'dido@gmail.com', 'Teknik Industri', '2020-08-24 12:43:51', NULL);
+(2, 'dido', '1301156090', 'dido@gmail.com', 'Teknik Industri', '2020-08-24 12:43:51', NULL),
+(3, 'agus', '1301155434', 'agus@gmail.com', 'Teknik Informatika', '2020-08-24 14:05:31', '2020-08-24 14:05:31'),
+(5, 'dido', '1301153993', 'didow@gmail.com', 'Ilmu Komputer', '2020-08-24 14:14:16', '2020-08-24 14:14:16'),
+(6, 'agusdi', '1301157777', 'agusdi@gmail.com', 'Teknik Informatika', '2020-08-24 14:16:34', '2020-08-24 14:16:34'),
+(7, 'dita', '1305525003', 'dita@gmail.com', 'Teknik Informatika', '2020-08-24 14:22:00', '2020-08-24 14:22:00'),
+(8, 'dito', '1313947579', 'dito@gmail.com', 'Teknik Informatika', '2020-08-24 14:23:15', '2020-08-24 14:23:15');
 
 -- --------------------------------------------------------
 
@@ -202,7 +207,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT untuk tabel `students`
 --
 ALTER TABLE `students`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
